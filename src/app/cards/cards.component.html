@@ -1,0 +1,149 @@
+<style>
+    /* Defult Settings */
+
+#animated-cards .card-header {
+    height: 200px;
+    background-color: #ffc107;
+  }
+  
+  #animated-cards .service-icon {
+    font-size: 30px;
+    color: black;
+    opacity: 0.4;
+    font-size: 60px;
+  }
+  
+  #animated-cards .heading-card {
+    margin-top: 20px;
+    font-size: 45px;
+  }
+  
+  #animated-cards .cardheader-text {
+    color: #fff;
+  }
+  
+  #animated-cards .card-text.sub-text-color {
+    color: #8c8c8c;
+  }
+  
+  #animated-cards .card-text:last-child {
+    font-size: 30px;
+    color: #595959;
+  }
+  
+  #animated-cards .cardheader-subtext {
+    font-size: 20px;
+  }
+  
+  #animated-cards .card.cards-shadown {
+    box-shadow: 2px 2px 30px #aaaaaa;
+  }
+  
+  #animated-cards {
+    margin: 40px;
+  }
+  
+  #animated-cards .col {
+    padding: 20px 7px 0px 7px;
+  }
+  
+  /* Card Hover Scale & Effect */
+  
+  #animated-cards .card:hover {
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 1200ms;
+    z-index: 99;
+  }
+  
+  #animated-cards .card {
+    transition: all 1200ms;
+    height: 100%;
+  }
+  
+  /* Color on hover */
+  
+  #animated-cards .card-header:first-child:hover {
+    background-color: #fed136;
+  }
+  
+  #animated-cards .card:hover .card-header:first-child {
+    background-color: #fed136;
+  }
+  
+  /* Icons */
+  
+  #animated-cards .card:hover .service-icon {
+    -webkit-transform: translateX(10px) translateY(10px) scale(1.3);
+    -moz-transform: translateX(10px) translateY(10px) scale(1.3);
+    -o-transform: translateX(10px) translateY(10px) scale(1.3);
+    -ms-transform: translateX(10px) translateY(10px) scale(1.3);
+    transform: translateX(10px) translateY(10px) scale(1.3);
+    transition: all 1200ms;
+  }
+  
+  #animated-cards .card .service-icon {
+    transition: all 1200ms;
+  }
+  
+  
+  
+  /* Copy-right by ARiyou2000 in May2020*/
+</style>
+<section id="services">
+    <div class="container">
+        <!-- <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="text-uppercase section-heading">Services</h2>
+                <h3 class="text-muted section-subheading">Lorem ipsum dolor sit amet consectetur</h3>
+            </div>
+        </div> -->
+        <div class="row space-rows" id="animated-cards">
+            <div class="col">
+                <div class="card cards-shadown cards-hover">
+                    <div class="card-header"><span class="space"><i class="fab fa-angular service-icon" id="service-icon-1"></i></span>
+                        <div class="cardheader-text">
+                            <h4 id="heading-card-1" class="heading-card">Web App</h4>
+                            <p id="cardheader-subtext-1" class="cardheader-subtext">HTML, CSS, JS, Angular</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text sub-text-color"> Description:</p>
+                        <p class="card-text cardbody-sub-text">We provide all you need for a special website or web app.<br /><br /><br /></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card cards-shadown cards-hover">
+                    <div class="card-header"><span class="space"><i class="fab fa-windows service-icon" id="service-icon-2"></i></span>
+                        <div class="cardheader-text">
+                            <h4 id="heading-card-2" class="heading-card">Windows</h4>
+                            <p id="cardheader-subtext-2" class="cardheader-subtext">C#, C++</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text sub-text-color"> Description:</p>
+                        <p class="card-text cardbody-sub-text">Any programme in .NetFreamwork and C base Language.<br /><br /><br /></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card cards-shadown cards-hover">
+                    <div class="card-header cards-header-hover"><span class="space"><i class="fab fa-java service-icon" id="service-icon-3"></i></span>
+                        <div class="cardheader-text">
+                            <h4 id="heading-card-3" class="heading-card">Java</h4>
+                            <p id="cardheader-subtext-3" class="cardheader-subtext">Android, Spring</p>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text sub-text-color"> Description:</p>
+                        <p class="card-text cardbody-sub-text">All Java base programme include Andoid Apps and Web Back-end by Spring.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

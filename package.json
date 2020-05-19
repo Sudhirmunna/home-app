@@ -22,6 +22,7 @@
     "@angular/platform-browser": "~9.0.0",
     "@angular/platform-browser-dynamic": "~9.0.0",
     "@angular/router": "~9.0.0",
+    "bootstrap": "^4.4.1",
     "gulp": "^4.0.2",
     "gulp-string-replace": "^1.1.2",
     "rxjs": "~6.5.4",
